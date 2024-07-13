@@ -1,0 +1,66 @@
+body {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #6A95A6;
+}
+
+.profile {
+    text-align: center;
+    background-color: #516673;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.music-list {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.music-item {
+    display: flex;
+    align-items: center;
+    background-color: #F2ECEB;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cover {
+    border-radius: 0.5rem;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.music-info {
+    flex: 1;
+}
+
+.music-info h2 {
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
